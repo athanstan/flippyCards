@@ -1,0 +1,126 @@
+.blogHeader{
+    font-weight: 400;
+    color: #fefefe;
+}
+
+
+.cardTitle{
+    font-weight: bold;
+    color: #fefefe;
+    font-size: 20px;
+}
+
+.cardCaption{
+    color: #fefefe;
+    font-size: 15px;
+}
+.card-inner_1{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: calc(100%);
+    padding-left: 10px;
+    background-color: rgba(31, 31, 31, 0.6);
+}
+
+.card-inner_2{
+    color: #fefefe;
+    position: relative; 
+    top: 8px;
+    
+
+}
+
+/* Flip Card  */
+
+.image-flip:hover .backside, .image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    }
+     
+    .image-flip:hover .frontside, .image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    }
+     
+    /* .image-flip {
+    margin-bottom:200px;
+    width: 300px;
+    height: 250px;
+    } */
+     
+    .mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+    }
+     
+    .frontside, .backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+     
+    .frontside {
+        -webkit-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateZ(0deg);
+        z-index: 2;
+    }
+     
+    .backside {
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    border-radius: .25rem;
+    }
+     
+    .card, .card-img-top {
+    border-radius: .25rem;
+    }
+
+    .card-body{
+        color: #fefefe;
+        background: rgba(3,10,0,1);
+        background: -moz-linear-gradient(top, rgba(3,10,0,1) 0%, rgba(33,105,9,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(3,10,0,1)), color-stop(100%, rgba(33,105,9,1)));
+        background: -webkit-linear-gradient(top, rgba(3,10,0,1) 0%, rgba(33,105,9,1) 100%);
+        background: -o-linear-gradient(top, rgba(3,10,0,1) 0%, rgba(33,105,9,1) 100%);
+        background: -ms-linear-gradient(top, rgba(3,10,0,1) 0%, rgba(33,105,9,1) 100%);
+        background: linear-gradient(to bottom, rgba(3,10,0,1) 0%, rgba(33,105,9,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030a00', endColorstr='#216909', GradientType=0 );
+
+    }
+
+
+/* Flip Card  */
