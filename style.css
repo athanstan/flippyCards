@@ -27,8 +27,15 @@
     color: #fefefe;
     position: relative; 
     top: 8px;
-    
+}
 
+.bodyBackside> img{
+    filter: brightness(50%);
+}
+
+.backsideLink:hover
+{
+    text-decoration: none;
 }
 
 /* Flip Card  */

@@ -26,17 +26,22 @@
                             <img class="card-img-top" src="photos/clockHacker.jpg" alt="programmer on the clock">
                             <div class="card-inner_1">
                                 <div class="card-inner_2">
-                                    <p class="cardTitle">Programming</p>
+                                    <header><p class="cardTitle">Programming</p><header>
                                 </div>
                             </div>
                         </div>
                     </div> <!--/frontside-->
                     <div class="backside">
+                    <a href="#" class="backsideLink">
                         <div class="card bodyBackside">
-                            <div class="card-body">
-                                <p class="card-text">This is a card component with header and footer</p>
+                            <img class="card-img-top" src="photos/linesofcode.jpg" alt="Colorful lines of code">
+                            <div class="card-inner_1">
+                                <div class="card-inner_2">
+                                    <p class="cardTitle text-center mb-1">Programming</p>
+                                    <p class="text-center">Lorem ipsum dolor sit amet, vel primis iriure argumentum at.</p>
+                                </div>
                             </div>
-                        </div>
+                        </div></a>
                     </div> <!--/backside-->
                 </div> <!--/mainFlip-->
             </div>
@@ -53,11 +58,12 @@
                         </div>
                     </div> <!--/frontside-->
                     <div class="backside">
+                        <a href="#" class="backsideLink">
                         <div class="card bodyBackside">
                             <div class="card-body">
-                                <p class="card-text">This is a card component with header and footer</p>
+                                <p class="card-text text-center">This is a card component with header and footer</p>
                             </div>
-                        </div>
+                        </div></a>
                     </div> <!--/backside-->
                 </div> <!--/mainFlip-->
             </div>
@@ -75,8 +81,12 @@
                     </div> <!--/frontside-->
                     <div class="backside">
                         <div class="card bodyBackside">
-                            <div class="card-body">
-                                <p class="card-text">This is a card component with header and footer</p>
+                        <img class="card-img-top" src="photos/cuteRobot.jpg" alt="Just A Cute Robot">
+                            <div class="card-inner_1">
+                                <div class="card-inner_2">
+                                    <p class="cardTitle" >Arduino</p>
+                                    <p>Lorem ipsum dolor sit amet, vel primis iriure argumentum at. Simul offendit intellegebat cu eos, vim et epicuri praesent.</p>
+                                </div>
                             </div>
                         </div>
                     </div> <!--/backside-->
