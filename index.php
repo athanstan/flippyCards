@@ -58,10 +58,14 @@
                         </div>
                     </div> <!--/frontside-->
                     <div class="backside">
-                        <a href="#" class="backsideLink">
+                    <a href="#" class="backsideLink">
                         <div class="card bodyBackside">
-                            <div class="card-body">
-                                <p class="card-text text-center">This is a card component with header and footer</p>
+                            <img class="card-img-top" src="photos/greenHoodHacker.jpg" alt="Green Hoody no Face">
+                            <div class="card-inner_1">
+                                <div class="card-inner_2">
+                                    <p class="cardTitle text-center mb-1">Hacking</p>
+                                    <p class="text-center">Lorem ipsum dolor sit amet, vel primis iriure argumentum at.</p>
+                                </div>
                             </div>
                         </div></a>
                     </div> <!--/backside-->
