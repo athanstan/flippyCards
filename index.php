@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 
-<body background="photos/matrix.jpg">
+<body>
 <div class="container">
 
-    <h1 class='text-center my-5 blogHeader'>Flippy Cards</h1>
+    <h1 class='text-center py-5 blogHeader'>Flippy Cards</h1>
     <div class="row cardRow">
             <div class="image-flip col-md-4 col-sm-6 mb-4" ontouchstart="this.classList.toggle('hover');">
                 <div class="mainflip">
