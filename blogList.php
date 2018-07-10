@@ -23,7 +23,7 @@
                             <div class="line"></div>
                             <a href="#" class="post-tag">LIFESTYLE</a>
                             <h4>
-                                <a href="#" class="post-headline">Party people in the house</a>
+                                <a href="blogPostContent.php" class="post-headline">Party people in the house</a>
                             </h4>
                             <p>
                             Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt.

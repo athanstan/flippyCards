@@ -150,7 +150,7 @@ body{
 
     .single-blog-area{
         background-color: white;
-        padding: 1rem; 
+        padding: 0.3rem; 
     }
 
 
@@ -285,7 +285,7 @@ body{
         border: 1px solid #c5c5c5;
         font-size: 12px;
         color: #fff;
-        background-color: black;
+        background-color: #1A2225;
         height: 45px;
         line-height: 43px;
         margin: 5px;
@@ -295,8 +295,82 @@ body{
     }
 
     .widget-content .tags a:hover{
-        background-color: black;
-        color: orange;
-        border: 1px solid orange;
+        background-color: #1A2225;
+        color: #FF5900;
+        border: 1px solid #FF5900;
+    }
+
+    .blog-post-radius{
+        border-radius: 10px;
+    }
+
+    .blog-post-content-col h1{
+        color: #444444;
+        margin: 0 20px 10px 0;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1;
+        letter-spacing: -.03em;
+    }
+
+    .blog-post-content-col p{
+        color: #666;
+    }
+
+    .blog-post-content-col .byline{
+        width: auto;
+        margin: 10px 0;
+        font-weight: 600;
+    }
+
+    .blog-post-content-col .byline a{
+        color: #444;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .blog-post-content-col .byline .sep{
+        margin: 0 4px;
+        font-weight: normal;
+        color: #ddd;
+    }
+
+    .blog-post-content-col .byline .date {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: .03em;
+        color: #bbb;
+    }
+    
+    .blog-post-content .sidebar-widget-area h5{
+        color: #1A2225;
+    }
+
+    .duthcode-author-card{
+        margin-bottom: 20px;
+    }
+
+    .post-content .duthcode-author-card img{
+        float: left;
+        width: 80px;
+        margin: 0 20px 0 0;
+    }
+
+    .post-content .duthcode-name-card{
+        display: block;
+        margin: 8px 0 4px 0;
+        font-size: 20px;
+        font-weight: 600;
+        color: #444444;
+    }
+
+    .duthcode-bio-card{
+        display: block;
+        max-width: 90%;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: italic;
+        line-height: 1.4;
+        color: #999;
     }
 /* Blog CSS */
